@@ -32,12 +32,12 @@ public class ItemScript : MonoBehaviour
     {
         if (color == 0)
         {
-            GetComponent<Image>().color = Color.white;
+			GetComponent<Image>().color = Color.white;
         }
         else
         if (color == 1)
         {
-            GetComponent<Image>().color = Color.red;
+			GetComponent<Image>().color = new Color(210, 12, 155);
         }
         else
         if (color == 2)
